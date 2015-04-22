@@ -1,3 +1,16 @@
+# After reading this fragment Nicola wants to build his own 
+# "Humpty Dumpty". As a basis he chooses the spheroid (read 
+# more about it on Wikipedia). We know the height and the 
+# width (in inches) for this spheroid. For the job at hand, 
+# Nikola needs to know how much material is required.
+# You can help him and create a function to calculate the 
+# volume (cubic inches) and the surface area (square inches).
+# Input: Two arguments. A height and a width as integers.
+# Output: The volume and the surface area as a list of floats. 
+# The results should be accurate to two decimals.
+# Precondition: 0 < width < 100
+# 0 < height < 100
+
 import math
 
 def checkio(height, width):

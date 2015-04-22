@@ -1,6 +1,11 @@
-#Your optional code here
-#You can import some modules or create additional functions
-
+# You are given a non-empty list of integers (X). 
+# For this task, you should return a list consisting of only 
+# the non-unique elements in this list. To do so you will 
+# need to remove all unique elements (elements which are 
+# contained in a given list only once). When solving this task, 
+# do not change the order of the list. 
+# Input: A list of integers.
+# Output: The list of integers.
 
 def checkio(data):
     filtered_data = []

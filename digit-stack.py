@@ -1,3 +1,20 @@
+# We will emulate the stack process with Python. 
+# You are given a sequence of commands:
+# - "PUSH X" -- add X in the stack, where X is a digit.
+# - "POP" -- look and remove the top position. 
+# If the stack is empty, then it returns 0 (zero) and does nothing.
+# - "PEEK" -- look at the top position. 
+# If the stack is empty, then it returns 0 (zero).
+# The stack can only contain digits.
+# You should process all commands and sum all digits which were 
+# taken from the stack ("PEEK" or "POP"). Initial value of the 
+# sum is 0 (zero).
+# Input: A sequence of commands as a list of strings.
+# Output: The sum of the taken digits as an integer.
+# Precondition:
+# 0 ≤ len(commands) ≤ 20;
+# all(re.match("\APUSH \d\Z", c) or с == "POP" or c == "PEEK" for c in commands)
+
 def digit_stack(commands):
     stack = []
     val = 0
